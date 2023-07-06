@@ -1,0 +1,85 @@
+#maindiv {
+    background: #FFF;
+    display: flex;
+    width: 800px;
+    height: 600px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.prise {
+    position: relative;
+}
+
+.prise span:first-child {
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+}
+
+.prise span:nth-child(2){
+    position: absolute;
+    font-size: 20px;
+    right: 0;
+}
+
+
+#fruitdiv {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    align-self: stretch;
+    border: 1px solid #828282;
+}
+
+#fruitdiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    margin-top: -60px;
+}
+
+.singleprisecomponent{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 20px;
+    height: 30px;
+}
+.prise{
+    color: var(--price-text-color, #636363);
+    text-align: right;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.title{
+    color: var(--label-text-color, #949494);
+
+/* Label Text */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#dealsdiv{
+    border: 1px solid red;
+}
