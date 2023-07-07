@@ -27,7 +27,7 @@ h2 {
     font-size: 20px;
 }
 
-.prise span:nth-child(2){
+.prise span:nth-child(2) {
     position: absolute;
     font-size: 20px;
     right: 0;
@@ -44,7 +44,7 @@ h2 {
     border: 1px solid #828282;
 }
 
-#fruitdiv1{
+#fruitdiv1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,14 +52,15 @@ h2 {
     margin-top: -60px;
 }
 
-.singleprisecomponent{
+.singleprisecomponent {
     display: inline-flex;
     justify-content: flex-end;
     align-items: baseline;
     gap: 20px;
     height: 30px;
 }
-.prise{
+
+.prise {
     color: var(--price-text-color, #636363);
     text-align: right;
     font-family: Inter;
@@ -70,95 +71,98 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
 }
-.title{
+
+.title {
     color: var(--label-text-color, #949494);
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-#dealsdiv{
-    /* border: 1px solid red; */
+
+#dealsdiv {
     width: 100%;
     height: 100%;
 }
-#maindeal{
-display: flex;
-height: 346px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 30px;
-flex: 1 0 0;
-margin-top: 50px;
-/* border: 1px solid red; */
-}
-.deal{
-    color: #000;
 
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
-
-#deals{
-display: flex;
-justify-content: space-between;
-align-items: baseline;
-align-self: stretch;
-}
-
-input{
-    height: 40px;
-align-self: stretch;
-border: 1px solid #ABABAB;
-margin-top: -45px;
-}
-
- button{
+#maindeal {
     display: flex;
-height: 65px;
-padding: 10px 30px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-align-self: stretch;
-border-radius: 8px;
-background: var(--button-background-color, #32C1FF);
-
-color: var(--button-text-color, #FFF);
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-cursor: pointer;
+    height: 346px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+    margin-top: 50px;
 }
 
-.sub{
+.deal {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#deals {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -45px;
+    align-items: baseline;
+    align-self: stretch;
+}
+
+input {
+    height: 40px;
+    align-self: stretch;
+    border: 1px solid #ABABAB;
+}
+
+button {
+    display: flex;
+    height: 65px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--button-background-color, #32C1FF);
+
+    color: var(--button-text-color, #FFF);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.sub {
     margin-top: -10px;
 }
-#action{
-display: flex;
-padding: 20px;
-margin: auto;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border: 1px solid #E2E2E2;
-width: fit-content;
+
+#action {
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #E2E2E2;
+    width: fit-content;
 }
-.actions{
+
+.actions {
     color: #000;
-font-family: Inter;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-justify-content: center;
-text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    text-align: center;
 
 }
