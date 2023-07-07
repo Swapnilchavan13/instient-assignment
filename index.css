@@ -109,12 +109,12 @@ h2 {
 #deals {
     display: flex;
     justify-content: space-between;
-    margin-top: -45px;
     align-items: baseline;
     align-self: stretch;
 }
 
 input {
+    margin-top: -45px;
     height: 40px;
     align-self: stretch;
     border: 1px solid #ABABAB;
